@@ -1,7 +1,9 @@
-echo first Argument - $1
-echo second Argument - $2
+echo First Argument - $1
+echo Second Argument - $2
 
 
-echo no of arguments - $#
+echo No Of Arguments - $#
 
-echo all argument - $*
+echo All Argument - $*
+
+echo Script Name - $0

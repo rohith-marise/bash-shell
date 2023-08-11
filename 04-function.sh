@@ -3,8 +3,11 @@
 # If we assign a name to certain commands then it is called function
 
 welcom() {
-  echo "Hello good day !"
-  exit 1
+  echo "Hi"
+#  exit 1
+   return 10
+   echo "Hello good day !"
+  # We can give exit status to a function like here exit 1
 }
 # We have to declare function first before using it
 welcom

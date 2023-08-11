@@ -5,9 +5,10 @@
 welcom() {
   echo "Hi"
 #  exit 1
-   return 10
+#  return 10
    echo "Hello good day !"
   # We can give exit status to a function like here exit 1
+  # If we give return it wont exit from the script, it just exit from that function
 }
 # We have to declare function first before using it
 welcom

@@ -13,3 +13,17 @@ welcom() {
 # We have to declare function first before using it
 welcom
 echo function Exit Status  = $?
+
+# You declare variable in main program, you can access that i n function and vice-versa
+# Function have its own special variables
+
+input() {
+  echo first argument = $1
+  echo Second argument = $2
+  echo all arguments = $*
+  echo no of arguments = $#
+  echo file name = $0
+
+}
+
+input rohith sarath

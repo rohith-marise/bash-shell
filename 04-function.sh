@@ -27,3 +27,4 @@ input() {
 }
 
 input rohith sarath
+# Here rohith and sarath are arguments

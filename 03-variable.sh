@@ -8,4 +8,4 @@ echo "Today date is ${Date}"
 
 ## Arithmetic Substitution
 ADD=$(( 2+2 ))
-echo ADD of 2+2 = ${ADD}
+echo "ADD of 2+2 = ${ADD}"

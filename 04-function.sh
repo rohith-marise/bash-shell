@@ -7,3 +7,4 @@ welcom() {
 }
 # We have to declare function first before using it
 welcom
+echo function Exit Status  = $?

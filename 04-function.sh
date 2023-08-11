@@ -4,6 +4,7 @@
 
 welcom() {
   echo "Hello good day !"
+  exit 1
 }
 # We have to declare function first before using it
 welcom

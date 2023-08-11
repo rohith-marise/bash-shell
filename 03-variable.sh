@@ -9,3 +9,7 @@ echo "Today date is ${Date}"
 ## Arithmetic Substitution
 ADD=$(( 2+2 ))
 echo "ADD of 2+2 = ${ADD}"
+
+ts=$(date +%Y%m%d%H%M%S)
+
+echo Timestamp = ${ts}

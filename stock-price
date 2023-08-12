@@ -1,2 +1,6 @@
-link=$1
-curl -s ${link} | grep nsecp | awk -F '[<>]' '{print $3}'
+#link=$1
+#curl -s ${link} | grep nsecp | awk -F '[<>]' '{print $3}'
+
+# or
+
+curl -s $1 | grep nsecp | awk -F '[<>]' '{print $3}'

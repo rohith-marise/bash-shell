@@ -13,3 +13,6 @@ echo "ADD of 2+2 = ${ADD}"
 ts=$(date +%Y%m%d%H%M%S)
 
 echo Timestamp = ${ts}
+
+echo username - $USER
+echo env variable abc - $abc

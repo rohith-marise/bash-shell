@@ -1,21 +1,22 @@
-echo First Argument - $1
-echo Second Argument - $2
+#echo First Argument - $1
+#echo Second Argument - $2
 
 
-echo No Of Arguments - $#
+#echo No Of Arguments - $#
 
-echo All Argument - $*
+#echo All Argument - $*
 
-echo Script Name - $0
+#echo Script Name - $0
 
 input() {
   echo first argument = $1
   echo Second argument = $2
   echo all arguments = $*
+  echo all arguments = $@
   echo no of arguments = $#
   echo file name = $0
 
 }
 
-input rohith sarath
+input rohith sarath happie mothi
 # Here rohith and sarath are arguments

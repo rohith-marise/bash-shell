@@ -16,3 +16,4 @@ echo Timestamp = ${ts}
 
 echo username - $USER
 echo env variable abc - $abc
+# For this first we have to export env variable to the system using export abc=100

@@ -25,7 +25,7 @@ Validate() {
 yum install maven -y &>>${Log_file}
 Validate $? "Installing maven package"
 
-if [ $(id "roboshop" -ne 0 ] ; then
+if [ $(id "roboshop") -ne 0 ] ; then
 useradd roboshop &>>${Log_file}
 Validate $? "Adding roboshop user"
 fi

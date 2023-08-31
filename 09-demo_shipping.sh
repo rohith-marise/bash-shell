@@ -25,7 +25,7 @@ Validate() {
 yum install maven -y &>>${Log_file}
 Validate $? "Installing maven package"
 
-if [ $(id roboshop) -ne 0 ] ; then
+if [ $(id "roboshop" -ne 0 ] ; then
 useradd roboshop &>>${Log_file}
 Validate $? "Adding roboshop user"
 fi
@@ -50,7 +50,7 @@ Validate $? "Building shipping component"
 mv target/shipping-1.0.jar shipping.jar &>>${Log_file}
 Validate $? "Moving built shipping component"
 
-mv ~/learn-shell/shipping.service /etc/systemd/system/shipping.service
+mv /home/centos/learn-shell/shipping.service /etc/systemd/system/shipping.service &>>${Log_file}
 Validate $? "Creating an shipping service file"
 
 systemctl daemon-reload &>>${Log_file}

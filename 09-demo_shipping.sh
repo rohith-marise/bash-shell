@@ -55,7 +55,7 @@ Validate $? "Building shipping component"
 mv target/shipping-1.0.jar shipping.jar &>>$LOGFILE
 Validate $? "Moving built shipping component"
 
-mv /home/centos/learn-shell/shipping.service /etc/systemd/system/shipping.service &>>$LOGFILE
+cp /home/centos/learn-shell/shipping.service /etc/systemd/system/shipping.service &>>$LOGFILE
 Validate $? "Creating an shipping service file"
 
 systemctl daemon-reload &>>$LOGFILE

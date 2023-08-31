@@ -5,7 +5,7 @@
 #LOGFILE=$LOGSDIR/$0-$DATE.log
 Date=$(date +%Y%m%d)
 Dir=/tmp
-LOGFILE=$Dir-$0-$Date.log
+LOGFILE=$Dir/$0-$Date.log
 User_id=$(id -u)
 R="\e[31m"
 G="\e[32m"

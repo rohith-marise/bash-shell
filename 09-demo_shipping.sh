@@ -17,7 +17,7 @@ Validate() {
   if [ $1 -ne 0 ] ; then
   echo -e "$2 -->${R}Failure${W}"
   else
-  echo -e "$2 -->${G}suceess${W}"
+  echo -e "$2 -->${G}success${W}"
   fi
 }
 

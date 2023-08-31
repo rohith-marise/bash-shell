@@ -15,3 +15,14 @@ done
 #done
 #
 #please give this script in for loop in different forms
+
+array=("Happie" "Bakshu" "Mothi")
+for i in ${array[@]} ; do
+        echo "This is agent dog $i"
+done
+
+# OR
+
+for i in Happie Bakshu Mothi ; do
+        echo "This is agent dog $i"
+done

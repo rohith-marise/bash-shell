@@ -3,10 +3,10 @@ Date=$(date +%Y%m%d)
 Dir=/tmp
 Log_file=${Dir}.$0.${Date}.log
 User_id=$(id -u)
-R=$(\e[31m)
-G=$(\e[32m)
-W=$(\e[0m)
-M=$(\e[35m)
+R="\e[31m"
+G="\e[32m"
+W="\e[0m"
+M="\e[35m"
 
 if [ ${User_id} -ne 0 ] ; then
 echo "Please run the script using root access"
@@ -18,6 +18,7 @@ Validate() {
   echo -e "$2 -->${R}Failure${W}"
   else
   echo -e "$2 -->${G}suceess${W}"
+  fi
 }
 
 

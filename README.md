@@ -1,4 +1,4 @@
-# learn-shell
+# shell
 
 Shell scripting, we learn Bash Scripting
 Bash scripting is used because of its native advantage over other different softwares (Python,nodejs & golang).

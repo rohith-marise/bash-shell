@@ -19,7 +19,7 @@
 array=("Happie" "Bakshu" "Mothi")
 for i in ${array[@]} ; do
         echo "This is agent dog $i"
-        sleep 1
+        sleep 2
 done
 
 # OR

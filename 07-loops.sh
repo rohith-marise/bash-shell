@@ -19,10 +19,11 @@ done
 array=("Happie" "Bakshu" "Mothi")
 for i in ${array[@]} ; do
         echo "This is agent dog $i"
+        sleep 1
 done
 
 # OR
 
-for i in Happie Bakshu Mothi ; do
-        echo "This is agent dog $i"
-done
+#for i in Happie Bakshu Mothi ; do
+#        echo "This is agent dog $i"
+#done

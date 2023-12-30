@@ -14,7 +14,7 @@ welcom() {
 welcom
 echo function Exit Status  = $?
 
-# You declare variable in main program, you can access that i n function and vice-versa
+# You declare variable in main program, you can access that in function and vice-versa
 # Function have its own special variables
 
 input() {

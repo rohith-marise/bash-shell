@@ -10,10 +10,10 @@
 #done
 
 # For loop script make sure you have a names.txt file with some names
-#for i in $(cat names.txt) ; do
-# echo "Hi ${i}"
-#done
-#
+for i in $(cat names.txt) ; do
+ echo "Hi ${i}"
+done
+
 #please give this script in for loop in different forms
 
 array=("Happie" "Bakshu" "Mothi")
@@ -24,6 +24,6 @@ done
 
 # OR
 
-#for i in Happie Bakshu Mothi ; do
-#        echo "This is agent dog $i"
-#done
+for i in Happie Bakshu Mothi ; do
+        echo "This is agent dog $i"
+done
